@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="manifest" href="/manifest.json" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="bootstrap/3-3-7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+        <link rel="stylesheet" href="bootstrap/3-3-7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="bootstrap/3-3-7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>Drug s</title>
+        <link href="static/css/main.80dc5ef6.css" rel="stylesheet" />
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root">
+            <div class="App">
+                <header>
+                    <div class="center">
+                        <a href="/"><img src="img/chat-banner.png" class="img-responsive" alt="banner" style="padding: 0px; margin: 0px; width: 100%; min-height: 40px;" /></a>
+                    </div>
+                </header>
+                <div class="container-fluid" style="margin-top: 2%;">
+                    <div class="jumbotron">
+                        <h1 class="App-title">Drug Combinations</h1>
+                        <p>This is an app version of our combo chart you can find <a href="https://wiki.tripsit.me/wiki/Drug_combinations" target="_blank" rel="noopener noreferrer"> here</a></p>
+                        <div>
+                            <div class="FlexBox">
+                                <div class="FlexItem">
+                                    <svg
+                                        fill="currentColor"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        height="1em"
+                                        width="1em"
+                                        viewBox="0 0 40 40"
+                                        style="vertical-align: middle; color: white; background-color: rgb(10, 137, 221); padding: 3px; width: 25px; height: 25px;"
+                                    >
+                                        <g>
+                                            <path
+                                                d="m37.5 21.7q0 1.1-0.9 2l-1.6 1.7q-0.9 0.8-2.1 0.8-1.2 0-2-0.8l-6.5-6.6v15.7q0 1.2-0.9 1.9t-2 0.7h-2.9q-1.1 0-2-0.7t-0.8-1.9v-15.7l-6.6 6.6q-0.8 0.8-2 0.8t-2-0.8l-1.7-1.7q-0.8-0.9-0.8-2 0-1.2 0.8-2.1l14.6-14.5q0.7-0.8 2-0.8 1.2 0 2 0.8l14.5 14.5q0.9 0.9 0.9 2.1z"
+                                            ></path>
+                                        </g>
+                                    </svg>
+                                    Low Risk &amp; Synergy
+                                </div>
+                                <div class="FlexItem">
+                                    <svg
+                                        fill="currentColor"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        height="1em"
+                                        width="1em"
+                                        viewBox="0 0 40 40"
+                                        style="vertical-align: middle; color: white; background-color: rgb(53, 175, 255); padding: 3px; width: 25px; height: 25px;"
+                                    >
+                                        <g>
+                                            <path
+                                                d="m25.9 20q0 2.4-1.7 4t-4.1 1.7-4-1.7-1.7-4 1.7-4 4-1.7 4.1 1.7 1.7 4z m-5.8-12.1q-3.3 0-6.1 1.6t-4.4 4.4-1.6 6.1 1.6 6.1 4.4 4.4 6.1 1.6 6.1-1.6 4.5-4.4 1.6-6.1-1.6-6.1-4.5-4.4-6.1-1.6z m17.2 12.1q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"
+                                            ></path>
+                                        </g>
+                                    </svg>
+                                    Low Risk &amp; No Synergy
+                                </div>
+                                <div class="FlexItem">
+                                    <svg
+                                        fill="currentColor"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        height="1em"
+                                        width="1em"
+                                        viewBox="0 0 40 40"
+                                        style="vertical-align: middle; color: white; background-color: rgb(0, 108, 179); padding: 3px; width: 25px; height: 25px;"
+                                    >
+                                        <g>
+                                            <path
+                                                d="m37.5 18.6q0 1.2-0.9 2l-14.5 14.5q-0.9 0.9-2 0.9-1.2 0-2-0.9l-14.6-14.5q-0.8-0.8-0.8-2 0-1.2 0.8-2.1l1.7-1.6q0.9-0.9 2-0.9 1.2 0 2 0.9l6.6 6.5v-15.7q0-1.1 0.8-2t2-0.8h2.9q1.2 0 2 0.8t0.9 2v15.7l6.5-6.5q0.8-0.9 2-0.9 1.2 0 2.1 0.9l1.6 1.6q0.9 0.9 0.9 2.1z"
+                                            ></path>
+                                        </g>
+                                    </svg>
+                                    Low Risk &amp; Decrease
+                                </div>
+                                <div class="FlexItem">
+                                    <svg
+                                        fill="currentColor"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        height="1em"
+                                        width="1em"
+                                        viewBox="0 0 40 40"
+                                        style="vertical-align: middle; color: white; background-color: rgb(213, 198, 37); padding: 3px; width: 25px; height: 25px;"
+                                    >
+                                        <g>
+                                            <path
+                                                d="m22.9 30.7v-4.2q0-0.4-0.3-0.6t-0.5-0.2h-4.2q-0.3 0-0.5 0.2t-0.3 0.6v4.2q0 0.3 0.3 0.5t0.5 0.2h4.2q0.3 0 0.5-0.2t0.3-0.5z m-0.1-8.4l0.4-10.2q0-0.3-0.2-0.4-0.3-0.3-0.5-0.3h-5q-0.2 0-0.5 0.3-0.2 0.1-0.2 0.4l0.4 10.2q0 0.3 0.2 0.4t0.5 0.2h4.2q0.3 0 0.5-0.2t0.2-0.4z m-0.3-20.8l17.1 31.4q0.8 1.4 0 2.8-0.4 0.7-1 1.1t-1.5 0.3h-34.2q-0.8 0-1.5-0.3t-1-1.1q-0.8-1.4 0-2.8l17.1-31.4q0.4-0.7 1.1-1.1t1.4-0.4 1.4 0.4 1.1 1.1z"
+                                            ></path>
+                                        </g>
+                                    </svg>
+                                    Caution
+                                </div>
+                                <div class="FlexItem">
+                                    <svg
+                                        fill="currentColor"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        height="1em"
+                                        width="1em"
+                                        viewBox="0 0 40 40"
+                                        style="vertical-align: middle; color: white; background-color: rgb(217, 132, 39); padding: 3px; width: 25px; height: 25px;"
+                                    >
+                                        <g>
+                                            <path
+                                                d="m28.6 22.9h6.8q-0.1 0.1-0.2 0.2t-0.2 0.2l-0.1 0-13.9 13.4q-0.4 0.4-1 0.4t-1-0.4l-13.9-13.4q-0.1 0-0.5-0.4h8.3q0.4 0 0.8-0.3t0.5-0.8l1.6-6.3 4.2 14.9q0.2 0.4 0.6 0.7t0.8 0.3q0.5 0 0.9-0.3t0.5-0.7l3.2-10.8 1.3 2.5q0.4 0.8 1.3 0.8z m11.4-9.6q0 3.2-2.3 6.7h-8.2l-2.5-4.9q-0.2-0.4-0.6-0.6t-0.8-0.2q-1 0.1-1.2 1l-2.9 9.6-4.4-15.3q-0.1-0.4-0.5-0.7t-0.9-0.3-0.9 0.3-0.5 0.7l-2.6 10.4h-9.4q-2.3-3.5-2.3-6.7 0-4.9 2.8-7.7t7.9-2.7q1.4 0 2.8 0.4t2.7 1.3 2.1 1.6 1.7 1.5q0.8-0.8 1.7-1.5t2.1-1.6 2.7-1.3 2.8-0.4q5 0 7.9 2.7t2.8 7.7z"
+                                            ></path>
+                                        </g>
+                                    </svg>
+                                    Unsafe
+                                </div>
+                                <div class="FlexItem">
+                                    <svg
+                                        fill="currentColor"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        height="1em"
+                                        width="1em"
+                                        viewBox="0 0 40 40"
+                                        style="vertical-align: middle; color: white; background-color: rgb(209, 33, 40); padding: 3px; width: 25px; height: 25px;"
+                                    >
+                                        <g>
+                                            <path
+                                                d="m28.6 25q0-0.5-0.4-1l-4-4 4-4q0.4-0.5 0.4-1 0-0.6-0.4-1.1l-2-2q-0.4-0.4-1-0.4-0.6 0-1 0.4l-4.1 4.1-4-4.1q-0.4-0.4-1-0.4-0.6 0-1 0.4l-2 2q-0.5 0.5-0.5 1.1 0 0.5 0.5 1l4 4-4 4q-0.5 0.5-0.5 1 0 0.7 0.5 1.1l2 2q0.4 0.4 1 0.4 0.6 0 1-0.4l4-4.1 4.1 4.1q0.4 0.4 1 0.4 0.6 0 1-0.4l2-2q0.4-0.4 0.4-1z m8.7-5q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"
+                                            ></path>
+                                        </g>
+                                    </svg>
+                                    Dangerous
+                                </div>
+                                <div class="FlexItem">
+                                    <svg
+                                        fill="currentColor"
+                                        preserveAspectRatio="xMidYMid meet"
+                                        height="1em"
+                                        width="1em"
+                                        viewBox="0 0 40 40"
+                                        style="vertical-align: middle; color: white; background-color: rgb(111, 111, 111); padding: 3px; width: 25px; height: 25px;"
+                                    >
+                                        <g>
+                                            <path
+                                                d="m23.2 28v5.4q0 0.4-0.3 0.6t-0.6 0.3h-5.3q-0.4 0-0.7-0.3t-0.2-0.6v-5.4q0-0.3 0.2-0.6t0.7-0.3h5.3q0.4 0 0.6 0.3t0.3 0.6z m7.1-13.4q0 1.2-0.4 2.3t-0.8 1.7-1.2 1.3-1.3 1-1.3 0.8q-0.9 0.5-1.6 1.4t-0.6 1.5q0 0.4-0.2 0.8t-0.7 0.3h-5.3q-0.4 0-0.6-0.4t-0.2-0.8v-1q0-1.9 1.4-3.5t3.2-2.5q1.3-0.6 1.9-1.2t0.5-1.7q0-0.9-1-1.7t-2.4-0.7q-1.4 0-2.4 0.7-0.8 0.5-2.4 2.5-0.3 0.4-0.7 0.4-0.2 0-0.5-0.2l-3.7-2.8q-0.3-0.2-0.3-0.5t0.1-0.6q3.5-6 10.3-6 1.8 0 3.6 0.7t3.3 1.9 2.4 2.8 0.9 3.5z"
+                                            ></path>
+                                        </g>
+                                    </svg>
+                                    Unknown
+                                </div>
+                                <div style="clear: both;"></div>
+                            </div>
+                            <div>
+                                <button class="Explanation">Expandir explicação</button>
+                                <div class="CategoriesFlex" style="display: none;">
+                                    <div class="CategoriesItems">
+                                        <p>
+                                            <svg
+                                                fill="currentColor"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                height="1em"
+                                                width="1em"
+                                                viewBox="0 0 40 40"
+                                                style="vertical-align: middle; color: white; background-color: rgb(10, 137, 221); padding: 3px; width: 25px; height: 25px;"
+                                            >
+                                                <g>
+                                                    <path
+                                                        d="m37.5 21.7q0 1.1-0.9 2l-1.6 1.7q-0.9 0.8-2.1 0.8-1.2 0-2-0.8l-6.5-6.6v15.7q0 1.2-0.9 1.9t-2 0.7h-2.9q-1.1 0-2-0.7t-0.8-1.9v-15.7l-6.6 6.6q-0.8 0.8-2 0.8t-2-0.8l-1.7-1.7q-0.8-0.9-0.8-2 0-1.2 0.8-2.1l14.6-14.5q0.7-0.8 2-0.8 1.2 0 2 0.8l14.5 14.5q0.9 0.9 0.9 2.1z"
+                                                    ></path>
+                                                </g>
+                                            </svg>
+                                            Low Risk &amp; Synergy
+                                        </p>
+                                        <p>
+                                            These drugs work together to cause an effect greater than the sum of its parts, and they aren't likely to cause an adverse or undesirable reaction when used carefully. Additional research should
+                                            always be done before combining drugs.
+                                        </p>
+                                    </div>
+                                    <div class="CategoriesItems">
+                                        <p>
+                                            <svg
+                                                fill="currentColor"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                height="1em"
+                                                width="1em"
+                                                viewBox="0 0 40 40"
+                                                style="vertical-align: middle; color: white; background-color: rgb(53, 175, 255); padding: 3px; width: 25px; height: 25px;"
+                                            >
+                                                <g>
+                                                    <path
+                                                        d="m25.9 20q0 2.4-1.7 4t-4.1 1.7-4-1.7-1.7-4 1.7-4 4-1.7 4.1 1.7 1.7 4z m-5.8-12.1q-3.3 0-6.1 1.6t-4.4 4.4-1.6 6.1 1.6 6.1 4.4 4.4 6.1 1.6 6.1-1.6 4.5-4.4 1.6-6.1-1.6-6.1-4.5-4.4-6.1-1.6z m17.2 12.1q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"
+                                                    ></path>
+                                                </g>
+                                            </svg>
+                                            Low Risk &amp; No Synergy
+                                        </p>
+                                        <p>Effects are additive. The combination is unlikely to cause any adverse or undesirable reaction beyond those that might ordinarily be expected from these drugs.</p>
+                                    </div>
+                                    <div class="CategoriesItems">
+                                        <p>
+                                            <svg
+                                                fill="currentColor"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                height="1em"
+                                                width="1em"
+                                                viewBox="0 0 40 40"
+                                                style="vertical-align: middle; color: white; background-color: rgb(0, 108, 179); padding: 3px; width: 25px; height: 25px;"
+                                            >
+                                                <g>
+                                                    <path
+                                                        d="m37.5 18.6q0 1.2-0.9 2l-14.5 14.5q-0.9 0.9-2 0.9-1.2 0-2-0.9l-14.6-14.5q-0.8-0.8-0.8-2 0-1.2 0.8-2.1l1.7-1.6q0.9-0.9 2-0.9 1.2 0 2 0.9l6.6 6.5v-15.7q0-1.1 0.8-2t2-0.8h2.9q1.2 0 2 0.8t0.9 2v15.7l6.5-6.5q0.8-0.9 2-0.9 1.2 0 2.1 0.9l1.6 1.6q0.9 0.9 0.9 2.1z"
+                                                    ></path>
+                                                </g>
+                                            </svg>
+                                            Low Risk &amp; Decrease
+                                        </p>
+                                        <p>Effects are substractive. The combination is unlikely to cause any adverse or undersirable reaction beyond those that might ordinarily be expected from these drugs.</p>
+                                    </div>
+                                    <div class="CategoriesItems">
+                                        <p>
+                                            <svg
+                                                fill="currentColor"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                height="1em"
+                                                width="1em"
+                                                viewBox="0 0 40 40"
+                                                style="vertical-align: middle; color: white; background-color: rgb(213, 198, 37); padding: 3px; width: 25px; height: 25px;"
+                                            >
+                                                <g>
+                                                    <path
+                                                        d="m22.9 30.7v-4.2q0-0.4-0.3-0.6t-0.5-0.2h-4.2q-0.3 0-0.5 0.2t-0.3 0.6v4.2q0 0.3 0.3 0.5t0.5 0.2h4.2q0.3 0 0.5-0.2t0.3-0.5z m-0.1-8.4l0.4-10.2q0-0.3-0.2-0.4-0.3-0.3-0.5-0.3h-5q-0.2 0-0.5 0.3-0.2 0.1-0.2 0.4l0.4 10.2q0 0.3 0.2 0.4t0.5 0.2h4.2q0.3 0 0.5-0.2t0.2-0.4z m-0.3-20.8l17.1 31.4q0.8 1.4 0 2.8-0.4 0.7-1 1.1t-1.5 0.3h-34.2q-0.8 0-1.5-0.3t-1-1.1q-0.8-1.4 0-2.8l17.1-31.4q0.4-0.7 1.1-1.1t1.4-0.4 1.4 0.4 1.1 1.1z"
+                                                    ></path>
+                                                </g>
+                                            </svg>
+                                            Caution
+                                        </p>
+                                        <p>
+                                            These combinations are not usually physically harmful, but may produce undesirable effects, such as physical discomfort or overstimulation. Extreme use may cause physical health issues.
+                                            Synergistic effects may be unpredictable. Care should be taken when choosing to use this combination.
+                                        </p>
+                                    </div>
+                                    <div class="CategoriesItems">
+                                        <p>
+                                            <svg
+                                                fill="currentColor"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                height="1em"
+                                                width="1em"
+                                                viewBox="0 0 40 40"
+                                                style="vertical-align: middle; color: white; background-color: rgb(217, 132, 39); padding: 3px; width: 25px; height: 25px;"
+                                            >
+                                                <g>
+                                                    <path
+                                                        d="m28.6 22.9h6.8q-0.1 0.1-0.2 0.2t-0.2 0.2l-0.1 0-13.9 13.4q-0.4 0.4-1 0.4t-1-0.4l-13.9-13.4q-0.1 0-0.5-0.4h8.3q0.4 0 0.8-0.3t0.5-0.8l1.6-6.3 4.2 14.9q0.2 0.4 0.6 0.7t0.8 0.3q0.5 0 0.9-0.3t0.5-0.7l3.2-10.8 1.3 2.5q0.4 0.8 1.3 0.8z m11.4-9.6q0 3.2-2.3 6.7h-8.2l-2.5-4.9q-0.2-0.4-0.6-0.6t-0.8-0.2q-1 0.1-1.2 1l-2.9 9.6-4.4-15.3q-0.1-0.4-0.5-0.7t-0.9-0.3-0.9 0.3-0.5 0.7l-2.6 10.4h-9.4q-2.3-3.5-2.3-6.7 0-4.9 2.8-7.7t7.9-2.7q1.4 0 2.8 0.4t2.7 1.3 2.1 1.6 1.7 1.5q0.8-0.8 1.7-1.5t2.1-1.6 2.7-1.3 2.8-0.4q5 0 7.9 2.7t2.8 7.7z"
+                                                    ></path>
+                                                </g>
+                                            </svg>
+                                            Unsafe
+                                        </p>
+                                        <p>There is considerable risk of physical harm when taking these combinations, they should be avoided where possible.</p>
+                                    </div>
+                                    <div class="CategoriesItems">
+                                        <p>
+                                            <svg
+                                                fill="currentColor"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                height="1em"
+                                                width="1em"
+                                                viewBox="0 0 40 40"
+                                                style="vertical-align: middle; color: white; background-color: rgb(209, 33, 40); padding: 3px; width: 25px; height: 25px;"
+                                            >
+                                                <g>
+                                                    <path
+                                                        d="m28.6 25q0-0.5-0.4-1l-4-4 4-4q0.4-0.5 0.4-1 0-0.6-0.4-1.1l-2-2q-0.4-0.4-1-0.4-0.6 0-1 0.4l-4.1 4.1-4-4.1q-0.4-0.4-1-0.4-0.6 0-1 0.4l-2 2q-0.5 0.5-0.5 1.1 0 0.5 0.5 1l4 4-4 4q-0.5 0.5-0.5 1 0 0.7 0.5 1.1l2 2q0.4 0.4 1 0.4 0.6 0 1-0.4l4-4.1 4.1 4.1q0.4 0.4 1 0.4 0.6 0 1-0.4l2-2q0.4-0.4 0.4-1z m8.7-5q0 4.7-2.3 8.6t-6.3 6.2-8.6 2.3-8.6-2.3-6.2-6.2-2.3-8.6 2.3-8.6 6.2-6.2 8.6-2.3 8.6 2.3 6.3 6.2 2.3 8.6z"
+                                                    ></path>
+                                                </g>
+                                            </svg>
+                                            Dangerous
+                                        </p>
+                                        <p>These combinations are considered extremely harmful and should always be avoided. Reactions to these drugs taken in combination are highly unpredictable and have a potential to cause death.</p>
+                                    </div>
+                                    <div class="CategoriesItems">
+                                        <p>
+                                            <svg
+                                                fill="currentColor"
+                                                preserveAspectRatio="xMidYMid meet"
+                                                height="1em"
+                                                width="1em"
+                                                viewBox="0 0 40 40"
+                                                style="vertical-align: middle; color: white; background-color: rgb(111, 111, 111); padding: 3px; width: 25px; height: 25px;"
+                                            >
+                                                <g>
+                                                    <path
+                                                        d="m23.2 28v5.4q0 0.4-0.3 0.6t-0.6 0.3h-5.3q-0.4 0-0.7-0.3t-0.2-0.6v-5.4q0-0.3 0.2-0.6t0.7-0.3h5.3q0.4 0 0.6 0.3t0.3 0.6z m7.1-13.4q0 1.2-0.4 2.3t-0.8 1.7-1.2 1.3-1.3 1-1.3 0.8q-0.9 0.5-1.6 1.4t-0.6 1.5q0 0.4-0.2 0.8t-0.7 0.3h-5.3q-0.4 0-0.6-0.4t-0.2-0.8v-1q0-1.9 1.4-3.5t3.2-2.5q1.3-0.6 1.9-1.2t0.5-1.7q0-0.9-1-1.7t-2.4-0.7q-1.4 0-2.4 0.7-0.8 0.5-2.4 2.5-0.3 0.4-0.7 0.4-0.2 0-0.5-0.2l-3.7-2.8q-0.3-0.2-0.3-0.5t0.1-0.6q3.5-6 10.3-6 1.8 0 3.6 0.7t3.3 1.9 2.4 2.8 0.9 3.5z"
+                                                    ></path>
+                                                </g>
+                                            </svg>
+                                            Unknown
+                                        </p>
+                                        <p>Effects are unknown.</p>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </div>
+                            <div></div>
+                            <h2 style="margin-top: 40px; margin-bottom: 30px;">Choose substances:</h2>
+                            <button class="Substance">2C-T-x</button>
+                            <button class="Substance">2C-x</button>
+                            <button class="Substance">5-MeO-xxT</button>
+                            <button class="Substance">Alcohol</button>
+                            <button class="Substance">Amphetamines</button>
+                            <button class="Substance">Benzodiazepines</button>
+                            <button class="Substance">Caffeine</button>
+                            <button class="Substance">Cannabis</button>
+                            <button class="Substance">Cocaine</button>
+                            <button class="Substance">DMT</button>
+                            <button class="Substance">DOx</button>
+                            <button class="Substance">DXM</button><button class="Substance">GHB/GBL</button>
+                            <button class="Substance">Ketamine</button>
+                            <button class="Substance">LSD</button>
+                            <button class="Substance">MAOIs</button>
+                            <button class="Substance">MDMA</button>
+                            <button class="Substance">MXE</button>
+                            <button class="Substance">Mescalina</button>
+                            <button class="Substance">Cogumelos</button>
+                            <button class="Substance">NBOMes</button>
+                            <button class="Substance">Nitrous</button>
+                            <button class="Substance">Opioids</button>
+                            <button class="Substance">SSRIs</button>
+                            <button class="Substance">Tramadol</button>
+                            <div style="margin-top: 40px;">
+                                <p>
+                                    The app, like the combo chart, is meant as a quick reference guide and additional research <strong>MUST</strong> always be done. For additional information check out our
+                                    <a href="http://drugs.tripsit.me/" target="_blank" rel="noopener noreferrer">Factsheet.</a>
+                                </p>
+                                <p>For re-use and attribution info see <a href="https://wiki.tripsit.me/wiki/Drug_combinations#Use_.26_Attribution" target="_blank" rel="noopener noreferrer">here</a></p>
+                                <a href="http://tripsit.me/contact-us/" target="_blank" rel="noopener noreferrer">Notice something wrong with this page? Let us know!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="static/js/main.829f2588.js"></script>
+    </body>
+</html>
